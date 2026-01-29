@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#answers {
+  display: grid;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.answer-btn, #next-btn {
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#feedback {
+  font-weight: bold;
+  min-height: 24px;
+}
